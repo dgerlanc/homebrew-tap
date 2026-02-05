@@ -12,3 +12,4 @@ brew install <formula>
 ## Available Formulae
 
 - `gig` - Generate .gitignore files from GitHub's template collection
+- `mmi` - Claude Code Bash command approval hook
