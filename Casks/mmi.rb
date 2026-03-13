@@ -3,7 +3,7 @@ cask "mmi" do
   name "mmi"
   desc "Claude Code Bash command approval hook"
   homepage "https://github.com/dgerlanc/mmi"
-  version "0.2.4"
+  version "0.2.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "mmi" do
   on_macos do
     on_intel do
       url "https://github.com/dgerlanc/mmi/releases/download/v#{version}/mmi_#{version}_darwin_amd64.tar.gz"
-      sha256 "dd6a56bc12816700cb529a349ce094c491e9774159f260acb44f747dd32f1178"
+      sha256 "4ba5ef3b1cdff93ce16f1f234e004bd6a5f158cb854f8b6e64c8bb30fb93167d"
     end
     on_arm do
       url "https://github.com/dgerlanc/mmi/releases/download/v#{version}/mmi_#{version}_darwin_arm64.tar.gz"
-      sha256 "f9e6ced7b090bdb2aa5a98a8840fcd1870712c8ff4f7bb51a453538f4e938931"
+      sha256 "451dadd971d4f05f1fea8420478620b408404f4c242fdabb93354f5358a89d7b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/dgerlanc/mmi/releases/download/v#{version}/mmi_#{version}_linux_amd64.tar.gz"
-      sha256 "88011b5fca61f981c224fcc5aa2d628f0700113fcc4cd9e26e340b54e1b0aae0"
+      sha256 "6a017dce6e9bca342b7f8e79c5c386ecb0410fd028ef1241de6048eaa83fc8d5"
     end
     on_arm do
       url "https://github.com/dgerlanc/mmi/releases/download/v#{version}/mmi_#{version}_linux_arm64.tar.gz"
-      sha256 "91821bea2b7297cd1b81916b3ec64b1d5336e0f9e8f1955e2d156cb3b06a2e35"
+      sha256 "6d381a272824088f88f32326b6fb2f3ea2538f5891eadf796029d239d048c2e5"
     end
   end
 
